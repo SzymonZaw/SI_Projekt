@@ -1,4 +1,3 @@
-
 # 0. Biblioteki
 import torch
 import torch.nn as nn
@@ -70,12 +69,6 @@ for epoch in range(50):
         if i % 7 == 6:
             print('[%d, %5d] loss: %.3f' % (epoch + 1, i + 1, running_loss / 5))
             running_loss = 0.0
-            #fig, axs = plt.subplots(1, 4, figsize=(10, 5))
-            #for j in range(4):
-            #    axs[j].imshow(inputs[j].permute(1, 2, 0))
-            #    axs[j].set_title(f'Label: {labels[j]}')
-            #    axs[j].axis('off')
-            #plt.show()
     #Ustawienie modelu na testowanie
     net.eval()
 
