@@ -1,5 +1,6 @@
 # SI_Projekt
 Kod składa się z pięciu części:
+
 0. Wykorzystywane biblioteki
 1. Tworzenie modelu sieci neuronowej. Definiowane są warstwy konwolucyjne, które wykrywają wzorce w danych wejściowych. Następnie są definiowane warstwy w pełnie połączone, które przetwarzają wyniki z warstw konwolucyjnych, aby uzyskać ostateczne przewidywania.
 2. Przygotowanie danych. Dane treningowe i testowe są ładowane z katalogów, gdzie znajdują się obrazy. Transformacje są stosowane do obu zestawów danych, takie jak zmiana obrazów, zmiana na tensor i normalizacja.
