@@ -8,3 +8,9 @@ Kod składa się z pięciu części:
 
 Uruchomienie programu:
 Kod można uruchomić w Pycharm w pliku main.py. 
+Linie kodu 86-90 są zakomentowane. Pozwalają one wyświetlić testowane obrazy i sprawdzić czy przewidywania programu były poprawne. 
+0 - oznacza linie ciągłą
+1 - oznacza pasy dla pieszych
+2 - oznacza linie przerywaną
+
+Predicted oznacza przewidywaną odpowiedź kodu. Actual oznacza jaka powinna być odpowiedź.
